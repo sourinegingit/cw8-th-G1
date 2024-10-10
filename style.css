@@ -1,0 +1,20 @@
+body,html,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary:"";
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+h1, .heading-xxlarge{
+font-size: 7.2rem;
+font-weight: 400;
+}
+h2, .heading-xlarge{
+    font-size: 4.2rem;
+    font-weight: 400;
+    }
