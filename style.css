@@ -105,6 +105,7 @@ h6,
     align-items: center;
     justify-content: space-between;
     position: relative;
+  
 }
 .logo{
     color: var(--white);
@@ -119,6 +120,7 @@ h6,
 }
 .hero {
     text-align: center;
+    z-index: 20;
   }
   .hero__title {
     color: var(--dark-blue);
@@ -155,9 +157,9 @@ h6,
     /*position: relative;*/
 /* } */
 .burger-menu__list.burger-menu--collapse{
-    max-height: 0;
+    /* max-height: 0; */
     padding: 0;
-    top: 0;
+    top: -6px;
     display: block !important; 
 }
 .card{
