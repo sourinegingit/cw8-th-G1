@@ -117,7 +117,15 @@ h6,
     font-size: 11px;
     font-weight: 700;
 }
-
+.hero {
+    text-align: center;
+  }
+  .hero__title {
+    color: var(--dark-blue);
+  }
+  .hero__body {
+    color: var(--text-gray);
+  }
 .burger-menu__list a{
     color: unset;
     text-decoration: none;
@@ -134,21 +142,23 @@ h6,
     color: var(--white);
     max-height: 50vh;
     overflow: hidden;
+    display: none;
     position: absolute;
     right: 0;
     left: 0;
-    top: -10px;
+    top: 14px;
     transition: all 1s ease;
-    z-index: -1;
+    z-index: 10;
     padding-top: 40px;
 }
-.burger-menu__toggle{
+/* .burger-menu__toggle{ */
     /*position: relative;*/
-}
-.burger-menu__list .burger-menu--collapse{
+/* } */
+.burger-menu__list.burger-menu--collapse{
     max-height: 0;
     padding: 0;
     top: 0;
+    display: block !important; 
 }
 .card{
     border: 1px solid var(--stroke);
@@ -166,7 +176,6 @@ h6,
 .card .card__info{
     background-color: coral;
     padding: 20px;
+
 }
-
-
 
