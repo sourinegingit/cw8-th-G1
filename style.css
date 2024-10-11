@@ -105,7 +105,7 @@ h6,
     align-items: center;
     justify-content: space-between;
     position: relative;
-  
+    
 }
 .logo{
     color: var(--white);
@@ -138,7 +138,9 @@ h6,
     margin: 5px;
 }
 .burger-menu__list{
-    border-radius: 25px;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+
     list-style-type: none;
    background-color: var(--dark-blue);
     color: var(--white);
@@ -159,7 +161,7 @@ h6,
 .burger-menu__list.burger-menu--collapse{
     /* max-height: 0; */
     padding: 0;
-    top: -6px;
+    top: 12px;
     display: block !important; 
 }
 .card{
@@ -178,6 +180,10 @@ h6,
 .card .card__info{
     background-color: coral;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:  flex-start;
+    justify-content:center;
 
 }
 
